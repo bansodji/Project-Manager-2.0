@@ -1,0 +1,24 @@
+{
+    "PageDescription": {
+        "title": "Projects",
+        "isButton": true,
+        "buttonName": "Create Project",
+        "section": true,
+        "type": "list",
+        "parent": "Project"
+    },
+    "FormDescription": [
+        "id",
+        "Type",
+        "Project Number",
+        "Project Name",
+        "PIC",
+        "Site Location",
+        "Industry Type",
+        "Start Date",
+        "Customer Name",
+        "Customer Contact",
+        "Action"
+    ],
+    "Database": "projects"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "project-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.16",
+    "@nextui-org/react": "^1.0.0-beta.10",
+    "bootstrap": "^5.2.3",
+    "next": "13.0.6",
+    "next-themes": "^0.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "sass": "^1.56.1"
+  }
+}

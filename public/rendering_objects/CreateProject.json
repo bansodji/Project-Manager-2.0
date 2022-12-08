@@ -1,0 +1,131 @@
+{
+    "PageDescription": {
+      "title": "Create Project",
+      "isButton": false,
+      "section": true,
+      "type": "create",
+      "parent": "Project"
+    },
+  
+    "FormDescription": {
+      "Project Details": {
+        "Project Number": {
+          "name": "ProjectNumber",
+          "id": "ProjectNumber",
+          "type": "text",
+          "required": true,
+          "readonly": false,
+          "validation": ""  
+        },
+        "Project Type": {
+          "name": "ProjectType",
+          "id": "ProjectType",
+          "type": "text",
+          "required": true,
+          "readonly": false,
+          "validation": ""  
+        },
+        "Project Name": {
+          "name": "ProjectName",
+          "id": "ProjectName",
+          "type": "text",
+          "required": true,
+          "readonly": false,
+          "validation": ""  
+        },
+        "Project Inchange": {
+          "name": "ProjectIncharge",
+          "id": "ProjectIncharge",
+          "type": "text",
+          "required": true,
+          "readonly": false,
+          "validation": ""  
+        },
+        "Industry Type": {
+          "name": "IndustryType",
+          "id": "IndustryType",
+          "type": "lookup",
+          "required": true,
+          "readonly": false,
+          "validation": ""  
+        },
+        "Start Date": {
+          "name": "StartDate",
+          "id": "StartDate",
+          "type": "date",
+          "required": true,
+          "readonly": false,
+          "validation": ""  
+        },
+        "End Date": {
+          "name": "EndDate",
+          "id": "EndDate",
+          "type": "date",
+          "required": true,
+          "readonly": false,
+          "validation": ""  
+        }        
+      },
+      "Customer Details":{
+        "Customer Name":{
+          "name": "CustomerName",
+          "id": "CustomerName",
+          "type": "text",
+          "required": true,
+          "readonly": false,
+          "validation": ""  
+        },
+        "Site Location":{
+          "name": "SiteLocation",
+          "id": "SiteLocation",
+          "type": "text",
+          "required": true,
+          "readonly": false,
+          "validation": ""  
+        },
+        "Customer Contact":{
+          "name": "CustomerContact",
+          "id": "CustomerContact",
+          "type": "number",
+          "required": true,
+          "readonly": false,
+          "validation": ""  
+        },
+        "Customer Email":{
+          "name": "CustomerEmail",
+          "id": "CustomerEmail",
+          "type": "email",
+          "required": true,
+          "readonly": false,
+          "validation": ""  
+        }
+      },
+      "Project Financials":{
+        "Fees":{
+          "name": "Fees",
+          "id": "Fees",
+          "type": "number",
+          "required": false,
+          "readonly": false,
+          "validation": ""  
+        },
+        "Man Hours":{
+          "name": "ManHours",
+          "id": "ManHours",
+          "type": "number",
+          "required": false,
+          "readonly": false,
+          "validation": ""  
+        },
+        "Planned Drawing Number":{
+          "name": "PlannedDrawingNumber",
+          "id": "PlannedDrawingNumber",
+          "type": "number",
+          "required": true,
+          "readonly": false,
+          "validation": ""  
+        }
+      }  
+    }
+  
+  }

@@ -1,0 +1,27 @@
+[
+    {
+        "key": "1",
+        "name": "Project",
+        "child": ["View Projects", "Create Project"]
+    },
+    {
+        "key": "2",
+        "name": "Drawing",
+        "child": ["View Drawings", "Create Drawing"]
+    },
+    {
+        "key": "3",
+        "name": "Revision",
+        "child": ["View Revisions", "Create Revision"]
+    },
+    {
+        "key": "4",
+        "name": "Timesheet",
+        "child": ["View Timesheet", "Create Timesheet"]
+    },
+    {
+        "key": "5",
+        "name": "Master",
+        "child": []
+    }
+]

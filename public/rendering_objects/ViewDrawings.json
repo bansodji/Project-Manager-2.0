@@ -1,0 +1,23 @@
+{
+    "PageDescription": {
+        "title": "All Drawings",
+        "isButton": true,
+        "buttonName": "Create Drawing",
+        "section": true,
+        "type": "list",
+        "parent": "Drawing"
+    },
+    "FormDescription": [
+        "id",
+        "Project Number",
+        "Drawing Number",
+        "Drawing Title",
+        "Building Code",
+        "Drawing Size",
+        "Drawing Type",
+        "Revision Cnstruction Number",
+        "Revision Cnstruction Date",
+        "Action"
+    ],
+    "Database": "drawings"
+}

@@ -1,0 +1,111 @@
+{
+    "PageDescription": {
+        "title": "Create Drawing",
+        "isButton": false,
+        "section": true,
+        "type": "create",
+        "parent": "Drawing"
+    },
+    "FormDescription": {
+        "Drawing Details": {
+            "Project Number": {
+                "name": "ProjectNumber",
+                "id": "ProjectNumber",
+                "type": "lookup",
+                "required": true,
+                "readonly": false,
+                "validation": ""
+            },
+            "Drawing Number": {
+                "name": "DrawingNumber",
+                "id": "DrawingNumber",
+                "type": "text",
+                "required": true,
+                "readonly": false,
+                "validation": ""
+            },
+            "Drawing Title": {
+                "name": "DrawingTitle",
+                "id": "DrawingTitle",
+                "type": "text",
+                "required": true,
+                "readonly": false,
+                "validation": ""
+            },
+            "Drawing Size": {
+                "name": "DrawingSize",
+                "id": "DrawingSize",
+                "type": "lookup",
+                "required": true,
+                "readonly": false,
+                "validation": ""
+            },
+            "Building Code": {
+                "name": "BuildingCode",
+                "id": "BuildingCode",
+                "type": "lookup",
+                "required": true,
+                "readonly": false,
+                "validation": ""
+            },
+            "Building Incharge": {
+                "name": "BuildingIncharge",
+                "id": "BuildingIncharge",
+                "type": "lookup",
+                "required": true,
+                "readonly": false,
+                "validation": ""
+            },
+            "Drawing Type": {
+                "name": "DrawingType",
+                "id": "DrawingType",
+                "type": "lookup",
+                "required": true,
+                "readonly": false,
+                "validation": ""
+            }
+        },
+        "Revision Details": {
+            "Designed By": {
+                "name": "DesignedBy",
+                "id": "DesignedBy",
+                "type": "lookup",
+                "required": true,
+                "readonly": false,
+                "validation": ""
+            },
+            "Reviewed By": {
+                "name": "ReviewedBy",
+                "id": "ReviewedBy",
+                "type": "lookup",
+                "required": true,
+                "readonly": false,
+                "validation": ""
+            },
+            "Approved By": {
+                "name": "ApprovedBy",
+                "id": "ApprovedBy",
+                "type": "lookup",
+                "required": true,
+                "readonly": false,
+                "validation": ""
+            },
+            "Revision Construction Number": {
+                "name": "RevisionConstructionNumber",
+                "id": "RevisionConstructionNumber",
+                "type": "number",
+                "required": true,
+                "readonly": false,
+                "validation": ""
+            },
+            "Revision Construction Date": {
+                "name": "RevisionConstructionDate",
+                "id": "RevisionConstructionDate",
+                "type": "date",
+                "required": true,
+                "readonly": false,
+                "validation": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fff{
+    color: #fff !important;
+}
+
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.f-rounded{
+    border-radius: 18px;
+}
+
+.f-rounded-top{
+    border-radius: 18px 18px 0 0;
+}
+
+a{
+    color: black !important;
+}
+
+th,td{
+    padding: 30px;
+}
+
+.shadow-box{
+    box-shadow: -1px -1px 14px -3px rgba(255, 255, 255, 0.2);
+}
